@@ -4,17 +4,7 @@ require("alpha").setup(astronvim.user_plugin_opts("plugins.alpha", {
     {
       type = "text",
       val = astronvim.user_plugin_opts("header", {
-        " █████  ███████ ████████ ██████   ██████",
-        "██   ██ ██         ██    ██   ██ ██    ██",
-        "███████ ███████    ██    ██████  ██    ██",
-        "██   ██      ██    ██    ██   ██ ██    ██",
-        "██   ██ ███████    ██    ██   ██  ██████",
-        " ",
-        "    ███    ██ ██    ██ ██ ███    ███",
-        "    ████   ██ ██    ██ ██ ████  ████",
-        "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
-        "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
-        "    ██   ████   ████   ██ ██      ██",
+        "Change the world with your code",
       }, false),
       opts = { position = "center", hl = "DashboardHeader" },
     },
